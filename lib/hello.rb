@@ -1,7 +1,8 @@
 
 #hello
 #Author: RKelsey (rkelsey@uoguelph.ca)
+puts "whats your name?"
 
-name = ARGV.first || "World"
+my_name = gets.strip
 
-puts "HI, #{name}!"
+puts "HI, #{my_name}!"
