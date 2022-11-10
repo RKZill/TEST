@@ -1,10 +1,7 @@
-require: 'greeter'
-#hello
-#Author: RKelsey (rkelsey@uoguelph.ca)
+require 'greeter'
 
-name = ARGV.first || "World"
+puts "What's your name"
+my_name = gets.strip
 
-puts "HI, #{name}!"
-
-greeter = Greeter.new(name)
+greeter = Greeter.new(my_name)
 puts greeter.greet
